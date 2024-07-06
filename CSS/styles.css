@@ -75,7 +75,7 @@ a {
 
 
 /* SITE-HEADER */
-.SITE-HEADER {
+.site-header {
   padding-top: 24px;
   padding-bottom: 24px;
   background-color: var(--element-bg);
@@ -139,6 +139,16 @@ a {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 48px;
+}
+
+.filters-search-wrapper {
+  position: relative;
+}
+
+.filter-search-icon {
+  position: absolute;
+  left: 32px;
+  top: 19px;
 }
 
 .filters-search-input {
